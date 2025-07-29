@@ -6,7 +6,7 @@ Recipe Snap is a web application that helps you discover new recipes based on th
 
 | Ingredient Upload | Recipe View |
 | :---: | :---: |
-| <img src="https://placehold.co/600x400.png" width="600" data-ai-hint="screenshot application"> | <img src="https://placehold.co/600x400.png" width="600" data-ai-hint="screenshot recipe"> |
+| <img src="https://placehold.co/Screenshorts/IngredientsfromImage.png" width="600" data-ai-hint="screenshot application"> | <img src="https://placehold.co/Screenshorts/RecipetoMake.png" width="600" data-ai-hint="screenshot recipe"> |
 
 ## Features
 

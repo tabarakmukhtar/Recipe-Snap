@@ -34,7 +34,7 @@ const prompt = ai.definePrompt({
   name: 'generateRecipePrompt',
   input: {schema: GenerateRecipeInputSchema},
   output: {schema: GenerateRecipeOutputSchema},
-  prompt: `You are a world-class chef. Generate a recipe based on the following ingredients:\n\nIngredients:\n{{#each ingredients}}- {{this}}\n{{/each}}\n\nInclude the recipe name, a list of ingredients, step-by-step instructions, and the estimated time to make the recipe.`,
+  prompt: `You are a world-class chef. Generate a recipe based on the following ingredients:\n\nIngredients:\n{{#each ingredients}}- {{this}}\n{{/each}}\n\nYour response MUST be a valid JSON object that conforms to the output schema. Include the recipe name, a list of ingredients, step-by-step instructions, and the estimated time to make the recipe.`,
 });
 
 const generateRecipeFlow = ai.defineFlow(

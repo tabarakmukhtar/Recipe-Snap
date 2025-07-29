@@ -36,7 +36,8 @@ const prompt = ai.definePrompt({
   prompt: `You are a recipe assistant. You will receive a photo of ingredients.
 
   Identify the ingredients in the photo and suggest potential recipes that can be made with them.
-  Return the ingredients as a list of strings, and the suggested recipes as a list of strings.
+  Your response MUST be a valid JSON object that conforms to the output schema.
+  If you cannot identify any ingredients or suggest any recipes, return empty arrays for the 'ingredients' and 'suggestedRecipes' fields.
   Photo: {{media url=photoDataUri}}`,
 });
 

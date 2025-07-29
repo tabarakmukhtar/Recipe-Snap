@@ -5,7 +5,7 @@ Recipe Snap is a web application that helps you discover new recipes based on th
 ## Screenshots
 
 | Upload Image | Ingredient Upload | Recipe View |
-| :---: | :---: | | :---: |
+| :---: | :---: | :---: |
 | <img src="Recipe Snap.png" width="600" data-ai-hint="screenshot application"> | <img src="IngredientsfromImage.png" width="600" data-ai-hint="screenshot application"> | <img src="RecipetoMake.png" width="600" data-ai-hint="screenshot recipe"> |
 
 ## Features

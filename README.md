@@ -42,7 +42,7 @@ To run this project on your local machine, follow these steps:
 
 3.  **Run the Development Server:**
     Once the dependencies are installed, start the Next.js development server:
-    ```bash
+    ```bas
     npm run dev
     ```
 

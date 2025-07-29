@@ -2,6 +2,12 @@
 
 Recipe Snap is a web application that helps you discover new recipes based on the ingredients you have on hand. Simply snap a photo of your ingredients, and our AI-powered assistant will identify them and suggest delicious recipes you can make.
 
+## Screenshots
+
+| Ingredient Upload | Recipe View |
+| :---: | :---: |
+| <img src="https://placehold.co/600x400.png" width="600" data-ai-hint="screenshot application"> | <img src="https://placehold.co/600x400.png" width="600" data-ai-hint="screenshot recipe"> |
+
 ## Features
 
 - **Photo-to-Ingredients:** Upload a photo, and the app will use generative AI to identify the ingredients.
@@ -42,7 +48,7 @@ To run this project on your local machine, follow these steps:
 
 3.  **Run the Development Server:**
     Once the dependencies are installed, start the Next.js development server:
-    ```bas
+    ```bash
     npm run dev
     ```
 
